@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8e2b2ee-afbf-49dc-8d2d-8a3bf5810033" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Accumulable.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Accumulable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ComplexFutureAction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ComplexFutureAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ContextCleaner.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/ContextCleaner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/JobExecutionStatus.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/JobExecutionStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Logging$.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Logging$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Logging.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/Logging.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SimpleFutureAction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SimpleFutureAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkContext.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkEnv$.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkEnv$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkEnv.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkEnv.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkHadoopWriter.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkHadoopWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkJobInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkJobInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkStageInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/SparkStageInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/TaskContext.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/TaskContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/TaskContextImpl.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/TaskContextImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/AlphaComponent.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/AlphaComponent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/DeveloperApi.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/DeveloperApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/Experimental.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/annotation/Experimental.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaFutureAction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaFutureAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaPairRDD$$anonfun$pairFunToScalaFun$1.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaPairRDD$$anonfun$pairFunToScalaFun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaSparkContextVarargsWorkaround.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/JavaSparkContextVarargsWorkaround.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/StorageLevels.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/StorageLevels.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/DoubleFlatMapFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/DoubleFlatMapFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/DoubleFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/DoubleFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/FlatMapFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/FlatMapFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/FlatMapFunction2.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/FlatMapFunction2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function2.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function3.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/Function3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/PairFlatMapFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/PairFlatMapFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/PairFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/PairFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/VoidFunction.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/java/function/VoidFunction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/python/PythonAccumulatorParam.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/python/PythonAccumulatorParam.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/python/PythonRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/api/python/PythonRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/broadcast/Broadcast.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/broadcast/Broadcast.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/broadcast/TorrentBroadcast.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/broadcast/TorrentBroadcast.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/history/FsHistoryProvider.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/history/FsHistoryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/ApplicationInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/ApplicationInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/DriverInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/DriverInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/WorkerInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/master/WorkerInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/worker/DriverRunner.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/worker/DriverRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/worker/Worker.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/deploy/worker/Worker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/executor/Executor.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/executor/Executor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/executor/TaskMetrics.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/executor/TaskMetrics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/input/PortableDataStream.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/input/PortableDataStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/Connection.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/Connection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/ConnectionManager.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/ConnectionManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/ReceivingConnection.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/network/nio/ReceivingConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/BlockRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/BlockRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/CheckpointRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/CheckpointRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/NewHadoopRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/NewHadoopRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/ParallelCollectionRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/ParallelCollectionRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PartitionCoalescer$LocationIterator$$anonfun$5$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PartitionCoalescer$LocationIterator$$anonfun$5$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PartitionwiseSampledRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PartitionwiseSampledRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PruneDependency.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/PruneDependency.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/RDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/RDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/RDDCheckpointData.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/RDDCheckpointData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/ZippedWithIndexRDD.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/rdd/ZippedWithIndexRDD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/JobWaiter.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/JobWaiter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/ShuffleMapTask.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/ShuffleMapTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/Task.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/Task.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/TaskSchedulerImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/SparkDeploySchedulerBackend.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/SparkDeploySchedulerBackend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/mesos/CoarseMesosSchedulerBackend.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/mesos/CoarseMesosSchedulerBackend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/mesos/MesosSchedulerBackend.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/scheduler/cluster/mesos/MesosSchedulerBackend.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/serializer/Serializer.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/serializer/Serializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/BlockInfo.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/BlockInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/BlockManager.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/BlockManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/MemoryStore.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/storage/MemoryStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcD$sp.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcD$sp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcI$sp.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcI$sp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcJ$sp.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap$mcJ$sp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/OpenHashMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort$1.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort$SortState.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort$SortState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/collection/TimSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/FileAppender.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/FileAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/SizeBasedRollingPolicy.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/SizeBasedRollingPolicy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/TimeBasedRollingPolicy.class" afterPath="$PROJECT_DIR$/core/target/scala-2.10/classes/org/apache/spark/util/logging/TimeBasedRollingPolicy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/TransportContext.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/TransportContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/FileSegmentManagedBuffer.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/FileSegmentManagedBuffer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/LazyFileRegion.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/LazyFileRegion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/ManagedBuffer.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/ManagedBuffer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/NettyManagedBuffer.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/NettyManagedBuffer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/NioManagedBuffer.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/buffer/NioManagedBuffer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/ChunkFetchFailureException.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/ChunkFetchFailureException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/ChunkReceivedCallback.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/ChunkReceivedCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/RpcResponseCallback.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/RpcResponseCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$2.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$3.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientBootstrap.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientBootstrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory$ClientPool.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory$ClientPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportClientFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportResponseHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/client/TransportResponseHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchFailure.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchFailure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchRequest.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchSuccess.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ChunkFetchSuccess.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encodable.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encodable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$ByteArrays.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$ByteArrays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$StringArrays.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$StringArrays.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$Strings.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders$Strings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Encoders.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Message$Type.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Message$Type.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Message.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/Message.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageDecoder$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageDecoder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageDecoder.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageDecoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageEncoder.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/MessageEncoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RequestMessage.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RequestMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ResponseMessage.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/ResponseMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcFailure.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcFailure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcRequest.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcResponse.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/RpcResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/StreamChunkId.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/protocol/StreamChunkId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/MessageHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/MessageHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/NoOpRpcHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/NoOpRpcHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/OneForOneStreamManager$StreamState.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/OneForOneStreamManager$StreamState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/OneForOneStreamManager.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/OneForOneStreamManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/RpcHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/RpcHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/StreamManager.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/StreamManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportChannelHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportChannelHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler$2.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportRequestHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportServer$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportServer.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/server/TransportServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/ConfigProvider.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/ConfigProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/IOMode.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/IOMode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/JavaUtils.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/JavaUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/LimitedInputStream.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/LimitedInputStream.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/NettyUtils$1.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/NettyUtils$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/NettyUtils.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/NettyUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/SystemPropertyConfigProvider.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/SystemPropertyConfigProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/TransportConf.class" afterPath="$PROJECT_DIR$/network/common/target/scala-2.10/classes/org/apache/spark/network/util/TransportConf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslClientBootstrap.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslClientBootstrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslMessage.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslRpcHandler.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SaslRpcHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SecretKeyHolder.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SecretKeyHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/ShuffleSecretManager.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/ShuffleSecretManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient$ClientCallbackHandler.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient$ClientCallbackHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer$DigestCallbackHandler.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer$DigestCallbackHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/sasl/SparkSaslServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/BlockFetchingListener.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/BlockFetchingListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager$AppExecId.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager$AppExecId.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleBlockManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleClient$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleClient.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ExternalShuffleClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher$ChunkCallback.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher$ChunkCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/OneForOneBlockFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$1.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$BlockFetchStarter.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$BlockFetchStarter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$RetryingBlockFetchListener.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher$RetryingBlockFetchListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/RetryingBlockFetcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ShuffleClient.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/ShuffleClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage$Decoder.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage$Decoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage$Type.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage$Type.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/BlockTransferMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/ExecutorShuffleInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/OpenBlocks.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/OpenBlocks.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/RegisterExecutor.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/RegisterExecutor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/StreamHandle.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/StreamHandle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/UploadBlock.class" afterPath="$PROJECT_DIR$/network/shuffle/target/scala-2.10/classes/org/apache/spark/network/shuffle/protocol/UploadBlock.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/core/src/main/scala/org/apache/spark/sql/execution/DiskHashedRelation.scala" afterPath="$PROJECT_DIR$/sql/core/src/main/scala/org/apache/spark/sql/execution/DiskHashedRelation.scala" />
+    </list>
+    <ignored path="cs143-3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cs143-3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DiskHashedRelation.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sql/core/src/main/scala/org/apache/spark/sql/execution/DiskHashedRelation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="4.8039217">
+              <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+              <folding>
+                <element signature="e#40#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiskPartitionSuite.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskPartitionSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sql/core/src/main/scala/org/apache/spark/sql/execution/DiskHashedRelation.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="62" />
+    <option name="y" value="81" />
+    <option name="width" value="1262" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="execution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs143-3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cs143-3" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8e2b2ee-afbf-49dc-8d2d-8a3bf5810033" name="Default" comment="" />
+      <created>1457667821463</created>
+      <option name="number" value="Default" />
+      <updated>1457667821463</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="62" y="81" width="1262" height="709" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskHashedRelationSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09803922">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskPartitionSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/core/src/main/scala/org/apache/spark/sql/execution/DiskHashedRelation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.8039217">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
