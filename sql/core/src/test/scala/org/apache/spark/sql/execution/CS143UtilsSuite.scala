@@ -34,6 +34,7 @@ class CS143UtilsSuite extends FunSuite {
 
     result.foreach((x: Row) => {
       val inputRow: Row = Row(x.getInt(1) - 1, x.getFloat(0))
+
       assert(list.contains(inputRow))
     })
   }

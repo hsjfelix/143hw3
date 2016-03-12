@@ -105,8 +105,20 @@ object CS143Utils {
    * @return
    */
   def getUdfFromExpressions(expressions: Seq[Expression]): ScalaUdf = {
-    // IMPLEMENT ME
-    null
+    var temp_udf_list =  new JavaArrayList[ScalaUdf]
+    for(i <- 0 until expressions.length ){
+        if(expressions(i).isInstanceOf[ScalaUdf]){
+            temp_udf_list.add(expressions(i).asInstanceOf[ScalaUdf])
+        }
+    }
+    if(!temp_udf_list.isEmpty()){
+        var result =  temp_udf_list.get(temp_udf_list.size()-1)
+        return result
+    }
+    else{
+      return null
+    }
+    
   }
 
   /**
@@ -187,14 +199,40 @@ object CachingIteratorGenerator {
         val postUdfProjection = CS143Utils.getNewProjection(postUdfExpressions, inputSchema)
         val cache: JavaHashMap[Row, Row] = new JavaHashMap[Row, Row]()
 
-        def hasNext() = {
-          // IMPLEMENT ME
-          false
+        def hasNext() : Boolean = {
+          if(input.hasNext){
+              return true
+          }
+          else{
+              return false
+          }
         }
 
-        def next() = {
-          // IMPLEMENT ME
-          null
+        def next() : Row = {
+            if(hasNext()){
+              var cur_row = input.next()
+              var r1 = preUdfProjection(cur_row)
+              var r3 = postUdfProjection(cur_row)
+              var r2 : Row = null
+              if(cache.containsKey(cur_row)){
+                  r2 = cache.get(cur_row)
+              }
+              else{
+                  r2 = udfProject(cur_row)
+                  cache.put(cur_row,r2)
+              }
+      
+              var k1 = r1.toArray
+             
+              var k2 = r2.toArray
+              var k3 = r3.toArray
+              //return r1+r2+r3
+              return Row.fromSeq(k1++k2++k3)
+            }
+            else{
+              return null
+            }
+            
         }
       }
     }
